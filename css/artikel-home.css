@@ -1,0 +1,35 @@
+header {
+	margin-top: 80px;
+}
+header h1 {
+	text-align: center;
+	font-size: 50px;
+}
+.artikel-home {
+
+	margin-top: 30px;
+}
+.home-artcard {
+	display: grid;
+	grid-template-columns: repeat(3, 330px);
+	gap: 50px;
+	justify-content: center;
+}
+.home-artcard article {
+	text-align: center;
+	padding: 15px;
+	justify-content: center;
+	border: 2px outset black;
+	box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	background-color: #d9d9d9;
+}
+.home-artcard h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.home-artcard p {
+	font-size: 17px;
+	font-weight: 400;
+}
+
