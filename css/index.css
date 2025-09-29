@@ -1,0 +1,85 @@
+header {
+	display: flex;
+	margin-top: 60px;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+	background: url(../media/image/main-hero.jpeg);
+}
+header h1 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: 800;
+}
+header p {
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+.artikel-home {
+
+	margin-top: 30px;
+}
+.artikel-home h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.home-artcard {
+	display: grid;
+	grid-template-columns: repeat(3, 330px);
+	gap: 50px;
+	justify-content: center;
+}
+.home-artcard article {
+	text-align: center;
+	padding: 15px;
+	justify-content: center;
+	border: 2px outset black;
+	box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	background-color: #d9d9d9;
+}
+.home-artcard h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.home-artcard p {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+
+.galeri-home {
+
+	margin-top: 50px;
+}
+.galeri-home h2 {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.galeri-artcard {
+	display: grid;
+	grid-template-columns: repeat(3, 330px);
+	gap: 50px;
+	justify-content: center;
+}
+.galeri-artcard article {
+	text-align: center;
+	padding: 15px;
+	justify-content: center;
+	border: 2px outset black;
+	box-shadow: 5px 8px 8px rgba(0,0,0,0.2);
+	border-radius: 15px;
+	background-color: #d9d9d9;
+}
+.galeri-artcard h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.galeri-artcard p {
+	font-size: 17px;
+	font-weight: 400;
+}
+
