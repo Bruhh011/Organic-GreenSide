@@ -1,0 +1,19 @@
+header {
+	margin-top: 60px;
+}
+header h1 {
+	text-align: center;
+	font-size: 50px;
+}
+header img {
+	width: 100%;
+	height: auto;
+}
+main {
+	margin-top: 20px;
+}
+main p {
+	padding: 20px;
+	font-size: 17px;
+	text-align: justify;
+}

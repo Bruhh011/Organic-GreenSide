@@ -3,8 +3,12 @@ header {
 	margin-top: 60px;
 	justify-content: center;
 	align-items: center;
-	height: 500px;
-	background: url(../media/image/main-hero.jpeg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	background-image: url(../media/image/main-hero.jpeg);
 }
 header h1 {
 	text-align: center;
